@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD Mapper 3.0 //EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yin">
+    <!--登录接口sql -->
+    <select id="login" parameterType="com.yin.model.User" resultType="Integer">
+        select count(*) from user where userName=#{userName} and password=#{password}
+    </select>
+    <!--添加用户接口sql-->
+    <insert id="addUser" parameterType="com.yin.model.User">
+        insert into user (userName,password,sex,age,permission,isDelete)
+        value (#{userName},#{password},#{sex},#{age},#{permission},#{isDelete})
+    </insert>
+    <!--获取用户sql-->
+    <select id="getUserInfo" parameterType="com.yin.model.User" resultType="com.yin.model.User">
+        <trim prefix="where" prefixOverrides="and">
+            <if test ="null !=id and '' !=id" >
+                and id=#{id}
+            </if>
+            <if test ="null !=userName and '' !=userName" >
+                and id=#{userName}
+            </if>
+            <if test ="null !=sex and '' !=sex" >
+                and id=#{sex}
+            </if>
+            <if test ="null !=age and '' !=age" >
+                and id=#{age}
+            </if>
+            <if test ="null !=permission and '' !=permission" >
+                and id=#{permission}
+            </if>
+            <if test ="null !=isDelete and '' !=isDelete" >
+                and id=#{isDelete}
+            </if>
+        </trim>
+    </select>
+    <!--更新/删除用户信息sql-->
+    <update id="updateUserInfo" parameterType="com.yin.model.User">
+        <trim prefix="set" suffixOverrides=",">
+            <if test="null !=userName and ''!=userName">
+                userName=#{userName},
+            </if>
+            <if test="null !=sex and ''!=sex">
+                sex=#{sex},
+            </if>
+            <if test="null !=age and ''!=age">
+                age=#{age},
+            </if>
+            <if test="null !=permission and ''!=permission">
+                permission=#{permission},
+            </if>
+            <if test="null !=isDelete and ''!=isDelete">
+                isDelete=#{isDelete},
+            </if>
+        </trim>
+    </update>
+</mapper>

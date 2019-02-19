@@ -1,0 +1,18 @@
+server:
+  port: 8888
+logging:
+  path: logs
+  file: userManager.log
+spring:
+  application:
+    name: userManager
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/autotest?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+
+mybatis:
+  type-aliases-package: com.yin.model
+  mapper-locations:
+    - mapper/*

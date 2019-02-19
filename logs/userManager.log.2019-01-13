@@ -1,0 +1,2 @@
+2019-01-13 00:13:45.563 [http-nio-8888-exec-1] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'appliaction/json;charset=UTF-8' not supported]
+2019-01-13 00:13:46.139 [http-nio-8888-exec-2] WARN  org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'appliaction/json;charset=UTF-8' not supported]
