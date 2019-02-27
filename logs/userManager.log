@@ -1,19 +1,19 @@
-2019-02-14 21:28:41.941 [main] INFO  com.yin.Application - Starting Application on PC-20151018USBK with PID 6324 (D:\muke\AppTest\target\classes started by Administrator in D:\muke\AppTest)
-2019-02-14 21:28:41.963 [main] INFO  com.yin.Application - No active profile set, falling back to default profiles: default
-2019-02-14 21:28:47.891 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yin]' package. Please check your configuration.
-2019-02-14 21:28:48.675 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7349e273] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2019-02-14 21:28:49.746 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
-2019-02-14 21:28:49.876 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
-2019-02-14 21:28:49.876 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
-2019-02-14 21:28:49.899 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_60\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\oracle\Administrator\product\11.2.0\client_1\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\Java\jdk1.8.0_60\jre\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;.]
-2019-02-14 21:28:50.350 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2019-02-14 21:28:50.350 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 8088 ms
-2019-02-14 21:28:52.297 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
-2019-02-14 21:28:52.721 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
-2019-02-14 21:28:52.901 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
-2019-02-14 21:28:52.979 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
-2019-02-14 21:28:53.006 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
-2019-02-14 21:28:53.462 [main] ERROR springfox.documentation.swagger.readers.operation.OperationHttpMethodReader - Invalid http method: POSYValid ones are [[Lorg.springframework.web.bind.annotation.RequestMethod;@1706e1]
+2019-02-26 21:24:24.082 [main] INFO  com.yin.Application - Starting Application on PC-20151018USBK with PID 9096 (D:\muke\AppTest\target\classes started by Administrator in D:\muke\AppTest)
+2019-02-26 21:24:24.091 [main] INFO  com.yin.Application - No active profile set, falling back to default profiles: default
+2019-02-26 21:24:27.867 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.yin]' package. Please check your configuration.
+2019-02-26 21:24:28.675 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$64188849] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-02-26 21:24:30.091 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8888 (http)
+2019-02-26 21:24:30.229 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-02-26 21:24:30.229 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/9.0.13
+2019-02-26 21:24:30.272 [main] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_60\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;D:\oracle\Administrator\product\11.2.0\client_1\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Java\jdk1.8.0_60\bin;C:\Program Files\Java\jdk1.8.0_60\jre\bin;C:\Program Files\MySQL\MySQL Server 5.7\bin;C:\Program Files\VisualSVN Server\bin;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\cmd;C:\Program Files\JetBrains\IntelliJ IDEA 2018.3.1\plugins\maven\lib\maven3\bin;.]
+2019-02-26 21:24:30.778 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-02-26 21:24:30.779 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 6473 ms
+2019-02-26 21:24:34.014 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-02-26 21:24:34.780 [main] INFO  org.springframework.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'taskScheduler'
+2019-02-26 21:24:34.920 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2019-02-26 21:24:34.979 [main] INFO  springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2019-02-26 21:24:35.010 [main] INFO  springfox.documentation.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2019-02-26 21:24:35.517 [main] ERROR springfox.documentation.swagger.readers.operation.OperationHttpMethodReader - Invalid http method: POSYValid ones are [[Lorg.springframework.web.bind.annotation.RequestMethod;@1e2f29a]
 java.lang.IllegalArgumentException: No enum constant org.springframework.web.bind.annotation.RequestMethod.POSY
 	at java.lang.Enum.valueOf(Enum.java:238)
 	at org.springframework.web.bind.annotation.RequestMethod.valueOf(RequestMethod.java:35)
@@ -51,5 +51,40 @@ java.lang.IllegalArgumentException: No enum constant org.springframework.web.bin
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
 	at com.yin.Application.main(Application.java:11)
-2019-02-14 21:28:53.635 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
-2019-02-14 21:28:53.654 [main] INFO  com.yin.Application - Started Application in 13.769 seconds (JVM running for 18.469)
+2019-02-26 21:24:35.682 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8888 (http) with context path ''
+2019-02-26 21:24:35.699 [main] INFO  com.yin.Application - Started Application in 13.448 seconds (JVM running for 16.485)
+2019-02-26 21:24:47.070 [http-nio-8888-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-02-26 21:24:47.070 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-02-26 21:24:48.338 [http-nio-8888-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1268 ms
+2019-02-26 21:24:50.411 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2019-02-26 21:24:50.597 [http-nio-8888-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2019-02-26 21:24:50.796 [http-nio-8888-exec-1] INFO  com.yin.controller.UserManager - 查看到的结果数是1
+2019-02-26 21:24:50.797 [http-nio-8888-exec-1] INFO  com.yin.controller.UserManager - 登录用户是：wangwu
+2019-02-26 21:24:51.338 [http-nio-8888-exec-2] INFO  com.yin.controller.UserManager - 查看到的结果数是0
+2019-02-26 21:24:51.539 [http-nio-8888-exec-3] INFO  com.yin.controller.UserManager - cookies 验证通过
+2019-02-26 21:24:51.995 [http-nio-8888-exec-3] INFO  com.yin.controller.UserManager - 添加用户数量为：1
+2019-02-26 21:25:34.451 [http-nio-8888-exec-5] INFO  com.yin.controller.UserManager - 查看到的结果数是1
+2019-02-26 21:25:34.452 [http-nio-8888-exec-5] INFO  com.yin.controller.UserManager - 登录用户是：wangwu
+2019-02-26 21:25:34.784 [http-nio-8888-exec-6] INFO  com.yin.controller.UserManager - 查看到的结果数是0
+2019-02-26 21:25:34.869 [http-nio-8888-exec-7] INFO  com.yin.controller.UserManager - cookies 验证通过
+2019-02-26 21:25:34.917 [http-nio-8888-exec-7] INFO  com.yin.controller.UserManager - 添加用户数量为：1
+2019-02-26 21:26:19.581 [http-nio-8888-exec-9] INFO  com.yin.controller.UserManager - 查看到的结果数是1
+2019-02-26 21:26:19.581 [http-nio-8888-exec-9] INFO  com.yin.controller.UserManager - 登录用户是：wangwu
+2019-02-26 21:26:19.691 [http-nio-8888-exec-10] INFO  com.yin.controller.UserManager - 查看到的结果数是0
+2019-02-26 21:26:19.847 [http-nio-8888-exec-1] INFO  com.yin.controller.UserManager - cookies 验证通过
+2019-02-26 21:26:19.953 [http-nio-8888-exec-1] INFO  com.yin.controller.UserManager - 添加用户数量为：1
+2019-02-26 21:28:40.098 [http-nio-8888-exec-3] INFO  com.yin.controller.UserManager - 查看到的结果数是1
+2019-02-26 21:28:40.098 [http-nio-8888-exec-3] INFO  com.yin.controller.UserManager - 登录用户是：wangwu
+2019-02-26 21:28:40.372 [http-nio-8888-exec-4] INFO  com.yin.controller.UserManager - 查看到的结果数是0
+2019-02-26 21:28:40.427 [http-nio-8888-exec-5] INFO  com.yin.controller.UserManager - cookies 验证通过
+2019-02-26 21:28:40.476 [http-nio-8888-exec-5] INFO  com.yin.controller.UserManager - 添加用户数量为：1
+2019-02-26 21:29:03.219 [http-nio-8888-exec-7] INFO  com.yin.controller.UserManager - 查看到的结果数是1
+2019-02-26 21:29:03.219 [http-nio-8888-exec-7] INFO  com.yin.controller.UserManager - 登录用户是：wangwu
+2019-02-26 21:29:03.294 [http-nio-8888-exec-8] INFO  com.yin.controller.UserManager - 查看到的结果数是0
+2019-02-26 21:29:03.347 [http-nio-8888-exec-9] INFO  com.yin.controller.UserManager - cookies 验证通过
+2019-02-26 21:29:03.401 [http-nio-8888-exec-9] INFO  com.yin.controller.UserManager - 添加用户数量为：1
+2019-02-26 21:32:23.947 [http-nio-8888-exec-1] INFO  com.yin.controller.UserManager - 查看到的结果数是1
+2019-02-26 21:32:23.947 [http-nio-8888-exec-1] INFO  com.yin.controller.UserManager - 登录用户是：wangwu
+2019-02-26 21:32:24.243 [http-nio-8888-exec-2] INFO  com.yin.controller.UserManager - 查看到的结果数是0
+2019-02-26 21:32:24.326 [http-nio-8888-exec-3] INFO  com.yin.controller.UserManager - cookies 验证通过
+2019-02-26 21:32:24.377 [http-nio-8888-exec-3] INFO  com.yin.controller.UserManager - 添加用户数量为：1

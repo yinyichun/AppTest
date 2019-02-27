@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="AppTest" options="-parameters" />
+      <module name="AppTest" options="-parameters -extdirs D:\muke\AppTest/lib" />
     </option>
   </component>
 </project>
